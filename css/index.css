@@ -155,3 +155,8 @@ footer {
     border-left: 1px solid;
     border-image: linear-gradient(white, #999999, white) 4;
 }
+
+.magirn-buttom
+{
+    margin-bottom: 62px;
+}
