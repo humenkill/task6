@@ -40,6 +40,7 @@ footer {
     background: url(../img/css_sprites.png) -10px -363px;
     /*margin: 1px 0 0 0;*/
     transform: scale(0.6);
+    margin: 0 5%;
 }
 
 .footer-img-my {
