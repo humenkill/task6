@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b15b1596-5254-4b8a-8263-1e07d247034b" name="localhost" url="htttp://222.212.34.139:8084\Users\zengzhe\Desktop\修真院-task6">
+        <fileTransfer port="0" mountedRoot="C:\Users\zengzhe\Desktop\修真院-task6" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*head*/
+.header-img {
+    width: 4.2rem;
+    height: 4.4rem;
+    background: url(../img/css_sprites.png) -1rem -29.9rem;
+    position: absolute;
+    border: 0;
+    top: 5px;
+    right: 2%;
+    transform: scale(0.7);
+}
+
+/*footer*/
+footer {
+    background-color: #F8FAFB;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /*显示在主轴的中间*/
+    align-items: center;
+    border-top: #cccccc solid 0.1rem;
+    height: 62px;
+}
+
+.footer-img-home {
+    width: 46px;
+    height: 40px;
+    background: url(../img/css_sprites.png) -10px -178px;
+}
+
+.footer-img-edit {
+    width: 94px;
+    height: 94px;
+    background: url(../img/css_sprites.png) -10px -363px;
+    /*margin: 1px 0 0 0;*/
+    transform: scale(0.6);
+}
+
+.footer-img-my {
+    width: 42px;
+    height: 41px;
+    background: url(../img/css_sprites.png) -10px -238px;
+}
+
+.footer-img-home, .footer-img-my {
+    transform: scale(0.75);
+
+}
+
+.footer-img-home-box, .footer-img-my-box {
+    text-align: center;
+
+
+}
+
+/*footer over*/
+.magirn-top {
+    margin-top: 54px;
+}
+
+/*list*/
+.list-left-img-1 {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(../img/css_sprites.png) -1rem -8.1rem;
+    margin: 0 15px 0 15px;
+}
+
+.list-left-img-2 {
+    width: 1.9rem;
+    height: 2.3rem;
+    background: url(../img/css_sprites.png) -1rem -3.8rem;
+    margin: 0 16px 0 15px;
+    position: relative;
+    left: 0.25rem;
+}
+
+.list-left-img-2, .list-left-img-1 {
+    float: left;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    /*height: 10rem;*/
+    padding: 0.4rem 0.5rem;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.list-left {
+    width: 70%;
+}
+
+.list-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list-left-2 {
+    margin-left: 54px;
+}
+
+.list p {
+    margin-top: 10px;
+}
+
+.list-text {
+    /*margin: 0 0 0 0;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.arr {
+    margin-left: 5px;
+    width: 1.9rem;
+    height: 3.3rem;
+    background: url(../img/css_sprites.png) -1.0rem -12.5rem;
+    transform: scale(0.5);
+}
+
+
+.border-top {
+    border-top: 1px #F3F3F3 solid;
+}
+
+.select-wrap {
+    clear: both;
+}
+
+.select {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    text-align-last: center;
+    border: 0;
+}
+
+.select-center {
+    background-color: #ffffff;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-image: linear-gradient(white, #999999, white) 4;
+}
