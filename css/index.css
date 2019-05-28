@@ -74,8 +74,8 @@ footer {
 }
 
 .list-left-img-2 {
-    width: 1.9rem;
-    height: 2.3rem;
+    width: 24px;
+    height: 24px;
     background: url(../img/css_sprites.png) -1rem -3.8rem;
     margin: 0 16px 0 15px;
     position: relative;
@@ -154,8 +154,4 @@ footer {
     border-right: 1px solid;
     border-left: 1px solid;
     border-image: linear-gradient(white, #999999, white) 4;
-}
-.list-left-text
-{
-    padding-left: 5px;
 }
